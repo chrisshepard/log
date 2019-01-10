@@ -1,0 +1,9 @@
+
+<div class="header">
+  <p>
+    {{componentMessage}}
+    <input [(ngModel)]="username" *ngIf="userData == null" class="form-control" placeholder="Name" type="text">
+    <button class="btn btn-success" *ngIf="userData == null" (click)="login(username)">Log in</button>
+    <button class="btn btn-danger" *ngIf="userData !== null" (click)="logout()">Log out</button>
+  </p>
+</div>

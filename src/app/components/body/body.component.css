@@ -1,0 +1,11 @@
+.body {
+  text-align:center;
+  padding: 10vh 10vw;
+  background: red;
+  margin-top:12vh;
+}
+
+.avatar {
+  max-width: 20vw;
+  max-height:auto;
+}

@@ -1,0 +1,16 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: grey;
+  color: white;
+  font-weight: bold;
+  text-align:center;
+}
+
+.form-control {
+  margin-left:5vw;
+
+}
